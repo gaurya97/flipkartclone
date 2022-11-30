@@ -1,0 +1,137 @@
+.g1 {
+    width: 100vw;
+    height: 5vh;
+    display: none;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: none;
+    position:sticky;
+    top:51px;
+    background: white;
+}
+
+.b1 {
+    height: 4vh;
+    width: 86vw;
+    display: none;
+    justify-content: center;
+    justify-items: center;
+    background-color: white(205, 29, 29);
+    text-align: center;
+}
+
+.b1 input {
+    outline: none;
+    border: none;
+    height: 4vh;
+    width: 60vw;
+    font-size: 10px;
+    background-color: white;
+}
+
+.m1 {
+    display: none;
+    background-color: white;
+    width: 4vw;
+    height: 4vh;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+@media(min-width:0px) and  (max-width:601px) {
+    
+    .headerbox {
+        background-color: blue;
+    }
+    .a img {
+        height: 3vh;
+        width: 11vw;
+    }
+    .a{
+        width: 10vw;
+    }
+    .c button{
+        width: 10vw;
+        height: 3vh;
+        font-size: 9px;
+    }
+    .d{
+        font-size: 7px;
+    }
+    .e{
+        font-size: 7px;
+    }
+    .e img {
+        height: 1.5vh;
+        width: 2.8vw;
+    }
+    .g {
+        display: none;
+    }
+
+    .g1 {
+        display: flex;
+        background-color: rgb(248, 241, 241);
+        z-index: 1;
+    }
+
+    .b1 {
+        display: flex;
+        background-color: rgb(248, 241, 241);
+    }
+
+    .b1 input {
+        background-color: rgb(248, 241, 241);
+    }
+
+    .m1 {
+        display: flex;
+        background-color: rgb(248, 241, 241);
+    }
+    .a1{
+        font-size: 9px;
+    }
+    .a1 img{
+        height: 7vh;
+    }
+    .hover{
+        top:42px;
+    }
+    .hover1 {
+        position: absolute;
+        top: 0px;
+    }
+    .hover2 {
+        width: 27vw;
+        height: 15vh;
+    } 
+    .para{
+        font-size: 10px;
+    }
+}
+ @media(min-width:602px) and (max-width:900px){
+    .bar{
+        flex-direction: column;
+    }
+    .hover2 {
+        height: 21vh;
+    }
+    .para{
+        font-size: 12px;
+    }
+} 
+@media(max-width:1000px){
+    .pp{
+        display: none;
+    }
+    .footer{
+        display: flex;
+    }
+    .footermain{
+        display: block;
+    }
+}
