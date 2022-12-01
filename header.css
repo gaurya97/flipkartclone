@@ -102,7 +102,7 @@ header {
     align-items: center;
     flex-direction: column;
     position: absolute;
-    top: 52px;
+    top: 43px;
     z-index: 2;
 }
 .hover1{
